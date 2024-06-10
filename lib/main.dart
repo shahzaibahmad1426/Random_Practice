@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:random_practice/layout_widgets/row_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +21,9 @@ class MyApp extends StatelessWidget {
 
    @override
    Widget build(BuildContext context) {
-     return const Scaffold();
+     return const Scaffold(
+       body: RowWidget(),
+     );
    }
  }
 
