@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:random_practice/layout_widgets/stack_widget.dart';
+import 'package:random_practice/layout_widgets/indexed_stack_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
    @override
    Widget build(BuildContext context) {
      return const Scaffold(
-       body: StackWidget(),
+       body: IndexedStackWidget(),
      );
    }
  }
