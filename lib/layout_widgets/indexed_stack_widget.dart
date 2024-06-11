@@ -12,7 +12,7 @@ class _IndexedStackWidgetState extends State<IndexedStackWidget> {
 
   void _toggleIndex() {
     setState(() {
-      selectedIndex = selectedIndex + 1;
+      selectedIndex = (selectedIndex + 1) % 3;
     });
   }
 
